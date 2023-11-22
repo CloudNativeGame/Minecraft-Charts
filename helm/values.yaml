@@ -1,0 +1,11 @@
+network:
+  slbIds: "lb-bp1rkdcvity6ya2r6lnhv"
+
+replicas: 3
+
+image:
+  repository: chris1995/minecraft
+  tag: test
+
+name: gss-minecraft
+namespace: default
